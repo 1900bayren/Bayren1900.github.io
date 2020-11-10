@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Crash course for beginners</title>
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1>Heading one</h1>
+    <h2>Heading one</h2>
+    <h3>Heading one</h3>
+    <h4>Heading one</h4>
+    <h5>Heading one</h5>
+    <h6>Heading one</h6>
+    <h7>Heading one</h8>
+        <h9>Heading one</h9>
+        <!-- paragraph -->
+        <p><a href="https://google.com" target="-blank">Lorem</a> <strong>ipsum dolor sit amet consectetur</strong>
+            adipisicing elit.
+            Officiis eum dolores
+            corporis dolorum explicabo minima eius, esse impedit labore sapiente
+            quidem aspernatur <em>maiores ad quo quasi</em> fugiat enim voluptatum a.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+            . Ipsum sit dolorum quo necessitatibus, odio in?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. De
+            lectus porro ipsam fugit reprehend
+            erit quia unde corporis. Animi obcaecati voluptate totam.
+        </p>
+        <!--list  -->
+        <ul>
+            <li>list Item 1</li>
+            <li>list Item 2</li>
+            <li>list Item 3</li>
+            <li>list Item 4</li>
+            <li>list Item 5</li>
+        </ul>
+
+        <ol>
+            <li>list Item 1</li>
+            <li>list Item 2</li>
+            <li>list Item 3</li>
+            <li>list Item 4</li>
+            <li>list Item 5</li>
+        </ol>
+
+        <!-- table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Peter</td>
+                    <td>123</td>
+                    <td>git-hub@126.com</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Peter</td>
+                    <td>123</td>
+                    <td>git-hub@126.com</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Leonard</td>
+                    <td>Peter</td>
+                    <td>123</td>
+                    <td>git-hub@126.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="form.js" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstname" placecholder="Enter First name">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastname" placecholder="Enter Last name">
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="text" name="age" placecholder="Enter Age">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placecholder="Enter Email">
+            </div>
+            <input type="submit" name="submit" value="Submit">
+        
+        </form>
+        <br>
+
+        <!-- Button -->
+        <button>This is a Button</Button>
+
+            <!-- Image -->
+        <img src="img/picbay.jpg" alt="This is a ing tag">
+        <br>
+        <hr>   
+        <br>
+        <img style="width: 100vw" src="img/pic1.jpg" alt="This is a ing tag">
+        
+        <!-- quotation -->
+        <blockquote> Bayren MIASANMIA</blockquote>
+
+        <p><abbr title="MASSACHUSETTS Institute of Technology">MIT</abbr> is a prestigious collage</p>
+
+        <div style="margin-top:1000px"></div>
+</body>
+
+</html>
